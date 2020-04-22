@@ -1,0 +1,24 @@
+{
+    "name": "yuukooagency/magento-mailjet-plugin-official",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "Mailjet for Magento 1",
+    "license": [
+        "Commercial"
+    ],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Mailjet",
+            "email": "support@mailjet.com"
+        }
+    ],
+    "extra": {
+        "map" : [
+            ["app/code/community/Mailjet/Iframes","app/code/community/Mailjet/Iframes"],
+            ["app/etc/modules/Mailjet_Iframes.xml","app/etc/modules/Mailjet_Iframes.xml"],
+            ["app/locale/fr_Fr/Mailjet_Iframes.csv","app/locale/fr_FR/Mailjet_Iframes.csv"],
+            ["app/locale/en_US/Mailjet_Iframes.csv","app/locale/en_US/Mailjet_Iframes.csv"],
+        ]
+    }
+}
