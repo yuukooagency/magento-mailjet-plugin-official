@@ -18,7 +18,7 @@
             ["app/code/community/Mailjet/Iframes","app/code/community/Mailjet/Iframes"],
             ["app/etc/modules/Mailjet_Iframes.xml","app/etc/modules/Mailjet_Iframes.xml"],
             ["app/locale/fr_Fr/Mailjet_Iframes.csv","app/locale/fr_FR/Mailjet_Iframes.csv"],
-            ["app/locale/en_US/Mailjet_Iframes.csv","app/locale/en_US/Mailjet_Iframes.csv"],
+            ["app/locale/en_US/Mailjet_Iframes.csv","app/locale/en_US/Mailjet_Iframes.csv"]
         ]
     }
 }
