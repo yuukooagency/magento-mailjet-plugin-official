@@ -1,13 +1,6 @@
 <?xml version="1.0"?>
 
-<config>
-    <tabs>
-        <mailjetiframes translate="label" module="iframes">
-            <label>Mailjet</label>
-            <sort_order>300</sort_order>
-        </mailjetiframes>
-    </tabs>
-    
+<config>    
     <sections>
         <mailjetiframes_options translate="label" module="iframes">
             <label>Settings</label>

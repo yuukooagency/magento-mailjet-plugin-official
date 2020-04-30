@@ -252,7 +252,7 @@ class Mailjet_Iframes_Helper_ApiWrapper extends Mage_Core_Helper_Abstract
                 break;
             case 'POST':
                 curl_setopt($this->_curl_handle, CURLOPT_CUSTOMREQUEST, 'POST');
-                curl_setopt($this->_curl_handle, CURLOPT_POST, count($params));
+                curl_setopt($this->_curl_handle, CURLOPT_POST, is_array($params)?count($params):0);
                 curl_setopt($this->_curl_handle, CURLOPT_POSTFIELDS, $params);
                 $this->_request_post = $params;
                 break;

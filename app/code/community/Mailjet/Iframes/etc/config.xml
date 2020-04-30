@@ -34,11 +34,11 @@
                     </iframes_test>
                 </entities>
             </mailjet_iframes_resource>
-            <core>
+            <!--core>
                 <rewrite>
                     <email_template>Mailjet_Iframes_Model_Email_Template</email_template>
                 </rewrite>
-            </core>
+            </core-->
         </models>
         <events>
             <adminhtml_init_system_config>
