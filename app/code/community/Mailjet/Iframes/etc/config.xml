@@ -160,13 +160,6 @@
         </routers>
     </admin>
     <adminhtml>
-        <menu>
-            <mailjet translate="title" module="iframes">
-                <title>Mailjet</title> 
-                <sort_order>1000</sort_order>
-                <action>iframes</action>
-            </mailjet>
-        </menu> 
         <acl>
             <resources>
                 <admin>
